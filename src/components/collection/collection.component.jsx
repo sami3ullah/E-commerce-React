@@ -7,7 +7,7 @@ import "./collection.styles.scss";
 const Collection = ({ title, items }) => {
   return (
     <div className="collection">
-      <h1 className="collection-title">{title.toUpperCase()}</h1>
+      <h3 className="collection-title">{title.toUpperCase()}</h3>
       <div className="item-box">
         {items
           .filter((item, idx) => idx < 4)
