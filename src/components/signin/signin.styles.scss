@@ -1,0 +1,14 @@
+.signin {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+
+  & h2,
+  & span {
+    text-transform: uppercase;
+  }
+
+  .title {
+    margin: 10px;
+  }
+}
