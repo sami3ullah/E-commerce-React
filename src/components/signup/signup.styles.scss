@@ -1,0 +1,14 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+
+  h2.title {
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+
+  span {
+    text-transform: uppercase;
+  }
+}
