@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils";
+import { ReactComponent as Logo } from "../../assets/main-logo.svg";
 
 // css
 import "./header.styles.scss";
@@ -9,7 +10,7 @@ const Header = ({ currentUser }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
-        <h1 className="logo">Dress Online</h1>
+        <Logo className="logo" />
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
