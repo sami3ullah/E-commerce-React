@@ -10,6 +10,8 @@
   color: #fff;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
   border: none;
   cursor: pointer;
 
@@ -26,6 +28,16 @@
     &:hover {
       background: #355a49;
       border: none;
+    }
+  }
+
+  &.inverted {
+    background: white;
+    color: black;
+
+    &:hover {
+      background: #000;
+      color: #fff;
     }
   }
 }
