@@ -2,6 +2,7 @@ import CartActionTypes from "./cart.types";
 
 const INTIAL_STATE = {
   hidden: true,
+  cartItems: [],
 };
 
 const cartReducer = (state = INTIAL_STATE, action) => {
